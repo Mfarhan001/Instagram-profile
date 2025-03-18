@@ -7,15 +7,15 @@ let iconbox=document.querySelector(".iconbox")
 
 
 // yaha par box2 ko click kare geto 1aad hoga 
-let nu=1;
-const plu=()=>{
-    if(p.innerText=nu)
-    nu++
-    console.log(nu);
+// let nu=1;
+// const plu=()=>{
+//     if(p.innerText=nu)
+//     nu++
+//     console.log(nu);
     
-}
+// }
 
-box2.addEventListener("dblclick",plu)
+// box2.addEventListener("dblclick",plu)
 
 
 
@@ -31,7 +31,7 @@ box2.addEventListener("dblclick",()=> {
       }else{
         setTimeout(()=>{
             img.style.display="none";
-        },1000)
+        },500)
       }
 
 })
@@ -50,7 +50,7 @@ iconbox.addEventListener("click",()=> {
   }else{
     setTimeout(()=>{
         img.style.display="none";
-    },1000)
+    },500)
   }
    
 })
@@ -78,6 +78,8 @@ const plus=()=>{
 }
 
 iconbox.addEventListener("click",plus)
+box2.addEventListener("dblclick",plus)
+
 
 
 // const minus=()=>{
